@@ -66,6 +66,47 @@ Ex:
 - `GuiElementTypeInferring` is a heueristc, albeit rudimentary, that tries to infer the type of a GuiElement based on attributes that either dictate the type of the data or hint at the type of the data. Moreover it performs pattern matching on the string values held by certain elements.
 
 
+Output example:
+```JSON
+{
+    "id" : 2131230873,
+    "label" : "Email Address",
+    "tag" : "EditText",
+    "inferredDataType" : "EMAIL_ADDRESS",
+    "children" : [ ],
+    "attributes" : {
+      "inputType" : {
+        "name" : "inputType",
+        "value" : 33,
+        "type" : "INT",
+        "localizedStringValue" : null
+      },
+      "label" : {
+        "name" : "label",
+        "value" : "Email Address",
+        "type" : "STRING",
+        "localizedStringValue" : null
+      },
+      "id" : {
+        "name" : "id",
+        "value" : 2131230873,
+        "type" : "REFERENCE",
+        "localizedStringValue" : null
+      }
+    },
+    "localOrFieldsThatUseTheGuiElement" : [ {
+      "containingClass" : "claude.ohlhoff.anonymousproximitymessaging.MainActivity",
+      "containingMethod" : "<claude.ohlhoff.anonymousproximitymessaging.MainActivity: void onCreate(android.os.Bundle)>",
+      "fieldRef" : null,
+      "field" : null,
+      "local" : "r5"
+    }
+    ...
+    ]
+}
+```
+
+
 
 ## Future Work
 

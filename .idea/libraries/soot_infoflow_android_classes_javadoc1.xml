@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="soot-infoflow-android-classes-javadoc1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../soot-infoflow-android-classes.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/../soot-infoflow-android-classes-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../soot-infoflow-android-classes-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
